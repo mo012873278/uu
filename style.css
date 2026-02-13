@@ -71,8 +71,8 @@ nav ul li a{
     }
 }
 mark{
-    font-size: 30px;
-    box-shadow: 0 0 gold;
+  font-size: 30px;
+    box-shadow: 0 0 15px 2px gold;
 }
 p{
     font-weight: bold;
@@ -130,3 +130,4 @@ footer a link :hover{
 nav ul li a:hover{
     color: gold;
 }
+
