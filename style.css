@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    direction: rtl;
+    background-color: rgb(160, 192, 183)
+}
+.zad{
+    text-align: center;
+    background-color: rgb(231, 198, 9);
+    border-radius : 25px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.zad div{
+    animation: zed 2s ;
+}
+@keyframes zed{
+    from{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to{
+        transform: translatey(0);
+        opacity: 1;
+    }
+}
+.zad h1{
+    font-size: xxx-large;
+}
+.zad p{
+    font-size: x-large;
+    margin-top: -10px;
+}
+nav{
+   background-color: green;
+   width: 100%;
+   margin: 12px 0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 11px 4px;
+}
+nav ul li{
+    list-style: none;
+    box-shadow: -2px 0px 5px 1px black;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 6px;
+}
+
+.div{
+ text-align: center;
+ margin-top: 20px;
+ padding: 5px;
+ animation: fade 1s ease;
+
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+mark{
+    font-size: 30px;
+    box-shadow: 0 0 gold;
+}
+p{
+    font-weight: bold;
+    font-size: 24px;
+}
+.b{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+}
+.link1{
+    color:gold;
+}
+hr{
+    height: 2px;
+    background-color: black;
+}
+footer a link :hover{
+    color: red;
+
+}
+.img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.img img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    box-shadow: 0 0 gold;
+    animation: img 2s infinite;
+}
+
+@keyframes img{
+    0%{
+        transform: rotate(0) scale(0);
+    }
+    100%{
+        transform: rotate(360deg) scale(1.1);
+        
+    }
+}
+.name{
+    text-align: center;
+    font-size: x-large;
+}
+.name a{
+    margin-right: 13px;
+}
+nav ul li a:hover{
+    color: gold;
+}
